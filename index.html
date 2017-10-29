@@ -1,1 +1,37 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <title>Yoiner Gómez</title>
+</head>
+
+<body>
+    <video poster="./assets/img/bg.PNG" id="bgvid" playsinline autoplay muted loop>
+        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <source src="./assets/vid/typing2.webm" type="video/webm">
+    </video>
+    <div id="bio">
+        <h1><small>BIO</small> Yoiner Gómez</h1>
+
+        <h2>Coming soon:</h2>
+        <div id="clock"></div>
+
+        <button>Pause</button>
+    </div>
+
+
+    <footer>
+        <a href="http://videezy.com/">Stock footage by Videezy</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/jquery.countdown.js"></script>
+</body>
+
+</html>
