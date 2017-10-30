@@ -1,6 +1,11 @@
+html,
 body {
-  margin: 0;
+  /*   margin: 0;
   background: #000;
+  height: 30rem; */
+  background-color: initial !important;
+  min-height: 100%;
+  height: 100%;
 }
 video {
   position: fixed;
@@ -25,27 +30,37 @@ video {
   font-weight: 100;
   background: rgba(0, 0, 0, 0.3);
   color: white;
-  padding: 2rem;
-  width: 33%;
-  margin: 2rem;
-  float: left;
+  padding: 3rem;
+  width: auto;
+  vertical-align: middle;
   font-size: 1.2rem;
 }
-h1 {
+/* h1 {
   font-size: 3rem;
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: 0.3rem;
-}
+} */
 small {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 span {
-    font-size: 4em;
+  font-size: 4em;
+}
+footer {
+  opacity: 0.7;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
 }
 #bio button {
   display: block;
-  width: 80%;
+  width: 20%;
+  min-width: 100px;
   padding: 0.4rem;
   border: none;
   margin: 1rem auto;
@@ -78,10 +93,17 @@ a:hover {
 }
 @media screen and (max-device-width: 800px) {
   html {
-    background: url("../img/bg2.PNG") #000
-      no-repeat center center fixed;
+    background: url("../img/bg2.PNG") #000 no-repeat center center fixed;
   }
   #bgvid {
     display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* your conditional / responsive CSS inside this condition */
+  #bio {
+    margin-top: 50px !important;
+    margin: 100px !important;
+    height: fit-content;
   }
 }
