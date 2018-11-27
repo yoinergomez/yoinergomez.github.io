@@ -1,0 +1,28 @@
+{
+  "name": "yoinergomez.github.io",
+  "version": "0.1.0",
+  "description": "Portfolio developed with new technological trends",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoinergomez/yoinergomez.github.io.git"
+  },
+  "keywords": [
+    "yoiner-gomez"
+  ],
+  "author": "@yoinergomez22",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoinergomez/yoinergomez.github.io/issues"
+  },
+  "homepage": "https://github.com/yoinergomez/yoinergomez.github.io#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
