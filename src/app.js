@@ -1,3 +1,7 @@
-import './assets/css/styles.css';
+import "./assets/css/styles.css";
 
-console.log('Hello world!')
+function init() {
+  return 0;
+}
+
+init();
