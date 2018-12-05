@@ -1,7 +1,7 @@
-import "./assets/css/styles.css";
+import './assets/css/styles.css'
 
 function init() {
-  return 0;
+  return 0
 }
 
-init();
+init()

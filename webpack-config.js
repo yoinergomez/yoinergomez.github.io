@@ -1,14 +1,14 @@
-const path = require("path");
-const webpack = require("webpack"); // eslint-disable-line import/no-extraneous-dependencies
+const path = require('path')
+const webpack = require('webpack') // eslint-disable-line import/no-extraneous-dependencies
 
 module.exports = {
-  mode: "development",
+  mode: 'development',
   entry: {
-    app: "./src/app.js"
+    app: './src/app.js'
   },
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "[name].bundle.js"
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].bundle.js'
   },
   devServer: {
     hot: true
@@ -17,13 +17,13 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"]
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.(png|jpg|gif)$/i,
         use: [
           {
-            loader: "url-loader",
+            loader: 'url-loader',
             options: {
               limit: 8192
             }
@@ -33,4 +33,4 @@ module.exports = {
     ]
   },
   plugins: [new webpack.HotModuleReplacementPlugin()]
-};
+}
