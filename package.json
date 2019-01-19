@@ -8,6 +8,10 @@
     "start": "webpack-dev-server --config webpack.config.js",
     "precommit": "pretty-quick --staged"
   },
+  "engines": {
+    "node": "10.14.2",
+    "npm": "6.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yoinergomez/yoinergomez.github.io.git"
