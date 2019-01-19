@@ -3,10 +3,30 @@ body {
   /*   margin: 0;
   background: #000;
   height: 30rem; */
-  background-color: initial !important;
+  font-family: "Raleway", sans-serif;
+  background-color: black;
   min-height: 100%;
   height: 100%;
+  margin: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bree Serif", serif;
+  color: white;
+}
+
+.container-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 video {
   position: fixed;
   top: 50%;
@@ -21,26 +41,7 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-.stopfade {
-  opacity: 0.5;
-}
 
-#bio {
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight: 100;
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  padding: 3rem;
-  width: auto;
-  vertical-align: middle;
-  font-size: 1.2rem;
-}
-/* h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: 0.3rem;
-} */
 small {
   font-size: 2rem;
 }
@@ -57,23 +58,6 @@ footer {
   background-color: black;
   text-align: center;
 }
-#bio button {
-  display: block;
-  width: 20%;
-  min-width: 100px;
-  padding: 0.4rem;
-  border: none;
-  margin: 1rem auto;
-  font-size: 1.3rem;
-  background: rgba(255, 255, 255, 0.23);
-  color: #fff;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: 0.3s background;
-}
-#bio button:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
 
 a {
   display: inline-block;
@@ -86,11 +70,7 @@ a {
 a:hover {
   background: rgba(0, 0, 0, 0.9);
 }
-@media screen and (max-width: 500px) {
-  div {
-    width: 70%;
-  }
-}
+
 @media screen and (max-device-width: 800px) {
   html {
     background: url("../img/bg2.PNG") #000 no-repeat center center fixed;
