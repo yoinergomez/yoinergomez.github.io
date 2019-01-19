@@ -1,7 +1,10 @@
 import './assets/css/styles.css'
+import './components/navbar/navbar'
 
 function init() {
-  return 0
+  console.log('Hi world!')
+  
+  return true
 }
 
 init()

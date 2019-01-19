@@ -4,14 +4,15 @@ const webpack = require('webpack') // eslint-disable-line import/no-extraneous-d
 module.exports = {
   mode: 'development',
   entry: {
-    app: './src/app.js'
+    app: './src/app.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js'
   },
   devServer: {
-    hot: true
+    hot: true,
+    contentBase: path.join(__dirname, 'src'),
   },
   module: {
     rules: [
@@ -29,6 +30,15 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.html$/,
+        use: [ {
+          loader: 'html-loader',
+          options: {
+            minimize: true
+          }
+        }],
       }
     ]
   },
