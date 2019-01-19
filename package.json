@@ -4,8 +4,8 @@
   "description": "Portfolio developed with new technological trends",
   "main": "src/app.js",
   "scripts": {
-    "build": "webpack --config webpack-config.js",
-    "start": "webpack-dev-server --config webpack-config.js",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --config webpack.config.js",
     "precommit": "pretty-quick --staged"
   },
   "repository": {

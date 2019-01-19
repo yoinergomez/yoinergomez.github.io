@@ -1,5 +1,5 @@
 const path = require('path')
-const webpack = require('webpack') // eslint-disable-line import/no-extraneous-dependencies
+const webpack = require('webpack')
 
 module.exports = {
   mode: 'development',
