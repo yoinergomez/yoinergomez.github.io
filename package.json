@@ -1,6 +1,6 @@
 {
   "name": "yoinergomez.github.io",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "description": "Portfolio developed with new technological trends",
   "main": "src/app.js",
   "scripts": {
