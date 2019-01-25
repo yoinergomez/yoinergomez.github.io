@@ -6,8 +6,7 @@
   "scripts": {
     "build": "webpack --mode production --config webpack.config.js",
     "start": "webpack-dev-server --config webpack.config.js",
-    "precommit": "pretty-quick --staged",
-    "deploy": "gh-pages -d dist"
+    "precommit": "pretty-quick --staged"
   },
   "engines": {
     "node": "10.14.2",
